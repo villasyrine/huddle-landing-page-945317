@@ -1,0 +1,134 @@
+
+
+@media only screen and (max-width: 1024px) {
+
+	#one .group {
+		margin-top: 50px;
+	}
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+	h1 {
+		font-size: 35px;
+	}
+
+
+	/* ===========
+	 Header
+	 ============ */
+
+	#banner .group {
+		width: 100%;
+		text-align: center;
+	}
+
+	[class*="col-"] {
+		width: 100%;
+	}
+
+	/* ===========
+	 Sections
+	 ============ */
+
+	 #one {
+	 	padding: 20px;
+	 }
+
+	 #one img {
+	 	margin: auto;
+	 	display: block;
+	 }
+
+	#one .group {
+		width: 100%;
+		text-align: center;
+	}
+
+	#float {
+		width: 90%;
+	}
+
+	/* ===========
+	 Footer
+	 ============ */
+
+	footer {
+	 	padding: 200px 0 50px;
+	}
+
+	footer .group {
+		margin: 20px 0;
+	}
+
+	footer .group span {
+		width: 90%
+	}
+
+	footer .links {
+		padding-top: 0px;
+	}
+
+	footer .col-4 {
+		margin: 0px 0;
+	}
+
+	footer .row .col-6 {
+		padding: 0px;
+	}
+
+	footer .col-3 {
+		text-align: center;
+	}
+
+	footer .links span {
+	    width: auto;
+	    font-size: 12px;
+	    margin-bottom: 50px;
+	    position: relative;
+	}
+
+}
+
+
+@media only screen and (max-width: 375px) {
+
+	h1 {
+		font-size: 25px;
+	}
+
+	h2 {
+		font-size: 22px;
+	}
+
+	p {
+		font-size: 13px;
+	}
+
+	nav .btn-tryit {
+		padding: 8px 30px;
+	}
+
+	/* ===========
+	 Sections
+	 ============ */
+
+	#one .container {
+		width: 100%
+	}	
+
+	#one .group {
+		margin-top: 30px;
+	}
+
+	.btn-started,
+	.btn-started-2 {
+		padding: 12px 40px;
+	}
+	#float a {
+		font-size: 12px!important;
+	}
+}

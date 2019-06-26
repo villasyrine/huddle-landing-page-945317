@@ -1,0 +1,218 @@
+@import "grid.css";
+
+* {
+	margin: 0;
+	padding: 0;
+	color: #00242e;
+	line-height: 1.5;
+	font-family: Open Sans;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+}
+
+.right-pos {
+	float: right;
+}
+
+.left-pos {
+	float: left;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+p {
+	font-size: 15px;
+}
+
+
+/* ===========
+ Nav
+ ============ */
+
+nav {
+	padding: 30px 0px;
+}
+
+nav img {
+	width: 150px;
+}
+
+nav .btn-tryit {
+	float: right;
+	font-size: 12px;
+	background: #fff;
+	font-weight: bold;
+	padding: 8px 45px;
+	border-radius: 20px;
+	text-decoration: none;
+	box-shadow: 2px 2px 5px #ddd;
+	border: 1px solid transparent;
+}
+
+nav .btn-tryit:hover {
+	background: #f2f2f2;
+}
+
+/* ===========
+ Header
+ ============ */
+
+header {
+	background: url("../images/bg-hero-desktop.png");
+}
+
+#wrapper {
+	background: #edfbfe;
+}
+
+#banner {
+	padding: 30px 0px;
+}
+
+#banner img {
+	width: 100%;
+}
+
+#banner .group {
+	min-width: 40%;
+	margin: 50px 0px;
+}
+
+#banner p {
+	margin: 20px 0px 50px;
+}
+
+.btn-started,
+.btn-started-2 {
+	color: #fff;
+	font-size: 12px;
+	padding: 15px 60px;
+	width: 100%;
+	background: #ff52bf;
+	border-radius: 25px;
+	text-decoration: none;
+	box-shadow: 2px 2px 5px #ddd;
+}
+
+.btn-started:hover,
+.btn-started-2:hover {
+	background: #ff33b4;
+}
+
+/* ===========
+ Sections
+ ============ */
+
+.margin {
+	margin-top: 100px;
+	margin-bottom: 200px;
+}
+
+#one {
+	margin: 50px 0px;
+	padding: 50px 0px;
+	border-radius: 30px;
+	-webkit-box-shadow: 0 0 10px #fff;
+		box-shadow: 0 0 5px #ccc;	
+}
+
+#one img {
+	width: 100%;	
+}
+
+#one .group {
+	margin-top: 100px;
+	width: 50%;
+}
+
+#one .group p {
+	color: #808d99;
+	margin: 20px 0;
+}
+
+#float-wrapper {
+	position: relative;
+}
+
+#float {
+	width: 55%;
+	z-index: 1;
+	position: absolute;
+	left: -50%;
+	right: -50%;
+	top: -120px;
+	margin: auto;
+	display: block;
+	background: #fff;
+	padding: 60px 0px;
+	text-align: center;
+	border-radius: 30px;
+	-webkit-box-shadow: 0 0 10px #fff;
+		box-shadow: 0 0 2px #ccc;	
+}
+
+#float .btn-started-2 {
+	font-size: 15px;
+}
+
+#float h2 {
+	padding: 0 0 50px;
+}
+
+
+
+/* ===========
+ Footer
+ ============ */
+
+footer  {
+	background: #00252a;
+	padding: 180px 0 80px;
+	position: relative;
+}
+
+footer * { 
+	color: #fff;
+	text-decoration: none;
+}
+
+.group {
+	margin: 30px 0 0;
+}
+
+.group span {
+	width: 80%;
+	display: block;
+	margin-left: 30px;
+}
+
+footer a {
+	display: block;
+	line-height: 2.5em;
+}
+
+footer .links {
+	padding-top: 100px;
+}
+
+footer .links span {
+	width: auto;
+	font-size: 12px;
+	margin-bottom: 50px;
+	position: absolute;
+	bottom: 0;
+}
